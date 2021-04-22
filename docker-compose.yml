@@ -1,0 +1,24 @@
+version: "3.8"
+services:
+
+  client:
+    container_name: blaze-dova-client
+    build: .
+    image: ionic_sbx
+    ports:
+      - "8100:4000"
+    volumes:
+      - "./:/app"
+    stdin_open: true
+
+  cli: # docker-compose run cli
+    container_name: blaze-dova-cli
+    build:
+        context: BlazorSandbox
+    ports:
+      - "4321:5001"
+    volumes:
+      - "./:/frontend"
+    stdin_open: true
+    tty: true
+    entrypoint: "/bin/bash"
