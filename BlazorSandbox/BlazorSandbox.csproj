@@ -12,4 +12,8 @@
         <PackageReference Include="System.Net.Http.Json" Version="3.2.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Cordova\www\wwwroot\sample-data\weather.json" />
+    </ItemGroup>
+
 </Project>

@@ -17,6 +17,7 @@ services:
         context: BlazorSandbox
     ports:
       - "4321:5001"
+      - "9000:8000"
     volumes:
       - "./:/frontend"
     stdin_open: true
