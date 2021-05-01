@@ -14,6 +14,57 @@
 
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Cordova\www\wwwroot\sample-data\weather.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\merged_assets\debug\out\www\web.config" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\src\main\assets\www\web.config" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\browser\www\web.config" />
+      <_ContentIncludedByDefault Remove="Cordova\package-lock.json" />
+      <_ContentIncludedByDefault Remove="Cordova\package.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\android.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\annotation_processor_list\debug\annotationProcessors.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\blame\res\debug\multi-v2\debug.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\blame\res\debug\multi-v2\values.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\blame\res\debug\single\debug.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\bundle_manifest\debug\bundle-manifest\output.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\compatible_screen_manifest\debug\out\output.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\instant_app_manifest\debug\output.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\merged_assets\debug\out\www\sample-data\weather.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\merged_manifests\debug\output.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\metadata_feature_manifest\debug\metadata-feature\output.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\navigation_json\debug\navigation.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\intermediates\processed_res\debug\out\output.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\build\outputs\apk\debug\output.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\src\main\assets\www\sample-data\weather.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\app\src\main\assets\www\_framework\blazor.boot.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\CordovaLib\build\intermediates\aapt_friendly_merged_manifests\debug\aapt\output.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\CordovaLib\build\intermediates\annotation_processor_list\debug\annotationProcessors.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\CordovaLib\build\intermediates\merged_manifests\debug\output.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\android\CordovaLib\build\intermediates\navigation_json\debug\navigation.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\browser\browser.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\browser\platform_www\manifest.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\browser\www\manifest.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\browser\www\sample-data\weather.json" />
+      <_ContentIncludedByDefault Remove="Cordova\platforms\browser\www\_framework\blazor.boot.json" />
+      <_ContentIncludedByDefault Remove="Cordova\plugins\android.json" />
+      <_ContentIncludedByDefault Remove="Cordova\plugins\browser.json" />
+      <_ContentIncludedByDefault Remove="Cordova\plugins\cordova-plugin-whitelist\package.json" />
+      <_ContentIncludedByDefault Remove="Cordova\plugins\cordova-plugin-whitelist\tests\package.json" />
+      <_ContentIncludedByDefault Remove="Cordova\plugins\fetch.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Cordova\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Cordova\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Cordova\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Cordova\**" />
     </ItemGroup>
 
 </Project>
